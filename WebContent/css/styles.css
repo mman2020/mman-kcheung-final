@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #51e2f5;
+  font-family: "Calibri", sans-serif;
+  padding-top: 5%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 75%;
+  background-color: #9df9ef;
+}
+
+table tr:first-child {
+  background-color: #edf756;
+  color: #51e2f5;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table td {
+  text-align: left;
+}
+
+table td:nth-child(3),
+table td:nth-child(4) {
+  text-align: center;
+}
+
+table td:nth-child(5) div {
+  display: flex;
+  justify-content: space-around;
+}
+
+table th,
+table td {
+  padding: 7px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+form input,
+form select {
+  border-radius: 3px;
+  margin-top: 3%;
+  padding: 7px;
+}
+
+h2 {
+  margin-bottom: 3%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  width: 30%;
+}
+
+.header-button {
+  background-color: #ffa8B6;
+  border: 1px solid #edf756;
+  border-radius: 7px;
+  color: #edf756;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  width: 45%;
+}
+
+.header-button:hover {
+  background-color: #a28089;
+  color: #51e2f5;
+}
+
+.header-button:active {
+  transform: translateY(1px);
+  color: #51e2f5;
+  background-color: #a28089;
+}
+
+.button {
+  background-color: #ffa8B6;
+  border: 1px solid #edf756;
+  border-radius: 3px;
+  color: #edf756;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 30%;
+}
+
+.button:hover {
+  background-color: #a28089;
+  color: #51e2f5;
+}
+
+.button:active {
+  transform: translateY(1px);
+  color: #51e2f5;
+  background-color: #a28089;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.form-actions input {
+  width: 45%;
+}
+
+.add-button {
+  background-color: #ffa8B6;
+  border: 1px solid #edf756;
+  border-radius: 3px;
+  color: #edf756;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.add-button:hover {
+  color: #51e2f5;
+  background-color: #a28089;
+}
+
+.add-button:active {
+  transform: translateY(1px);
+  color: #51e2f5;
+  background-color: #a28089;
+}
